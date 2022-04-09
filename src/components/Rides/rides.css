@@ -1,0 +1,98 @@
+.ride_back
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+}
+.filters_options
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    color: white;
+}
+.options_not
+{
+    color: rgba(255, 255, 255, 0.8);
+}
+.filters_options .options
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.filters_options .options p
+{
+    cursor: pointer;
+}
+.filters_options .options p:hover
+{
+    color: white;
+    border-bottom: 1.5px solid white;
+
+}
+.filters_options .filters
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+.active
+{
+    color: white;
+    font-weight: bold;
+    border-bottom: 1.5px solid white;
+}
+.rides_all
+{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.filter_back
+{
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    width: 200px;
+    gap: 0.5rem;
+    top: 80%;
+    left: 85%;
+}
+.filter_back p
+{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.2rem;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+.filter_back select
+{
+    width: 80%;
+    padding: 0.5rem;
+    outline: none;
+    background-color: rgba(98, 98, 98, 0.692);
+    border-radius: 0.2rem;
+    color: white;
+}

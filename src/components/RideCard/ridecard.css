@@ -1,0 +1,60 @@
+.ride_card
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    width: 100%;
+}
+.ride_card_left
+{
+    position: relative;
+    display: flex;
+    gap: 1rem;
+}
+.ride_card img{
+    position: relative;
+    height: 180px;
+    width: 300px;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    object-position: center;
+}
+.details
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.details p
+{
+    margin: 0.4rem;
+}
+.details p span
+{
+    color: rgba(255, 255, 255, 0.6);
+}
+.places
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+}
+.places p
+{
+    position: relative;
+    font-size: 0.8rem;
+    background-color: black;
+    border-radius: 0.8rem;
+    padding: 0.1rem 0.3rem 0.1rem 0.3rem;
+}
